@@ -128,11 +128,11 @@ button:hover {
   left: 0%;
 }
 #computer {
-  width: 30%;
+  width: 34.8%;
   aspect-ratio: 300/170;
   background-image: url(SVG/computer.svg);
   position: absolute;
-  top: 5%;
+  top: 3%;
   left: 8%;
   background-size: cover;
   animation-name: hop_sprite_kf;
@@ -142,12 +142,12 @@ button:hover {
   animation-timing-function: linear;
 }
 #koder {
-  width: 22%;
+  width: 20%;
   aspect-ratio: 200/160;
   background-image: url(SVG/js_css_html.svg);
   position: absolute;
   top: 11.3%;
-  left: 41%;
+  left: 41.8%;
   background-size: cover;
   animation-name: hop_sprite_kf;
   animation-duration: 3s;

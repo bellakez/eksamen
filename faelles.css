@@ -1,8 +1,26 @@
 img {
   max-width: 100%;
 }
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
+}
+/*______________font og overskrifter_________*/
+h1 {
+  font-family: "Oxanium", cursive;
+  text-align: center;
+  font-size: 1.7rem;
+  padding: 2px;
+}
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 2px; 
+}
+a {
+   font-family: 'Source Sans Pro', sans-serif;
+   padding: 2px; 
+   font-size: 0.8rem;
 }
 /*_____________burger menu______________*/
 
@@ -31,10 +49,10 @@ html{
 }
 #menu li {
   display: inline-block;
-  gap: 10px;
+  gap: 15px;
   list-style: none;
-  margin: 1px;
-  padding: 1px;
+  margin: 2px;
+  padding: 2px;
 }
 
 a {
@@ -72,5 +90,3 @@ a {
     color: rgb(65, 40, 156);
   }
 }
-
-
