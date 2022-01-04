@@ -1,1 +1,243 @@
 /*________________ section1 __________________*/
+#section1 {
+  display: flex;
+}
+#section1 .section_wrapper {
+  background-image: url("forside/splashbillede1.png");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+  padding: 15px;
+}
+#buttons {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+button {
+  list-style: none;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 40px;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.6rem;
+}
+
+button:hover {
+  background-color: rgb(137, 69, 248);
+  border: 2px solid rgb(108, 69, 248);
+}
+
+/*________animationer splashbillede_____*/
+#kort {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  background-image: url(forside/kort.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  top: 26%;
+  left: 35%;
+  width: 30%;
+  animation-name: kort_sprite_kf;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+
+@keyframes kort_sprite_kf {
+  0% {
+    transform: scale(0.8);
+  }
+
+  70% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0.8);
+  }
+}
+#cirkel {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-image: url(forside/cirkel.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  top: 10%;
+  left: 40%;
+  width: 30%;
+  animation-name: cirkel_sprite_kf;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes cirkel_sprite_kf {
+  from {
+    transform: rotate3d(0.5, 0.5, 0.5, 360deg);
+  }
+  to {
+    transform: rotate3d(0deg);
+  }
+}
+
+/*___________________ section2_______________*/
+#section2 {
+  display: flex;
+}
+#section3 {
+  background-image: url("forside/trappe_mobil-100.jpg");
+  width: 100%;
+  aspect-ratio: 1080/1920;
+  position: relative;
+  background-size: cover;
+}
+
+@media only screen and (min-width: 600px) {
+  #section1 .section_wrapper {
+    background-image: url("forside/splashbillede1.png");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    padding: 15px;
+  }
+  #background {
+    background-image: url("forside/trappe-100.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+}
+
+/*________animationer trappe_____*/
+#elementer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+#computer {
+  width: 30%;
+  aspect-ratio: 300/170;
+  background-image: url(SVG/computer.svg);
+  position: absolute;
+  top: 5%;
+  left: 8%;
+  background-size: cover;
+  animation-name: hop_sprite_kf;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+#koder {
+  width: 22%;
+  aspect-ratio: 200/160;
+  background-image: url(SVG/js_css_html.svg);
+  position: absolute;
+  top: 11.3%;
+  left: 41%;
+  background-size: cover;
+  animation-name: hop_sprite_kf;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+#billede {
+  width: 22%;
+  aspect-ratio: 260/180;
+  background-image: url(SVG/billede_video.svg);
+  position: absolute;
+  top: 23.2%;
+  left: 62%;
+  background-size: cover;
+  animation-name: hop_sprite_kf;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+#ux {
+  width: 15%;
+  aspect-ratio: 150/150;
+  background-image: url(SVG/ux.svg);
+  position: absolute;
+  top: 36%;
+  left: 50.3%;
+  background-size: cover;
+  animation-name: hop_sprite_kf;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+#wireframe {
+  width: 18%;
+  aspect-ratio: 210/240;
+  background-image: url(SVG/wireframe.svg);
+  position: absolute;
+  top: 46%;
+  left: 18%;
+  background-size: cover;
+  animation-name: hop_sprite_kf;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+#pencel {
+  width: 16%;
+  aspect-ratio: 170/260;
+  background-image: url(SVG/pencel.svg);
+  position: absolute;
+  top: 55.5%;
+  left: 50%;
+  background-size: cover;
+  animation-name: hop_sprite_kf;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+#person {
+  width: 16%;
+  aspect-ratio: 230/260;
+  background-image: url(SVG/person.svg);
+  position: absolute;
+  top: 76.7%;
+  left: 40%;
+  background-size: cover;
+  animation-name: hop_sprite_kf;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+/*_______________ animationer trappe____________*/
+@keyframes hop_sprite_kf {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}

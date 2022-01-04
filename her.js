@@ -1,5 +1,6 @@
 window.addEventListener("load", sidenVises);
 
+// burgermenu //
 function sidenVises() {
   console.log("sidenVises");
   document.querySelector("#menuknap").addEventListener("click", toggleMenu);
