@@ -1,7 +1,9 @@
 img {
   max-width: 100%;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /*_____________burger menu______________*/
 
 .hidden {
@@ -31,8 +33,8 @@ img {
   display: inline-block;
   gap: 10px;
   list-style: none;
-  margin: 3px;
-  padding: 3px;
+  margin: 1px;
+  padding: 1px;
 }
 
 a {
