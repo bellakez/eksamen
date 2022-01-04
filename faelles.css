@@ -1,0 +1,74 @@
+img {
+  max-width: 100%;
+}
+
+/*_____________burger menu______________*/
+
+.hidden {
+  /*    display: none;*/
+  /*    transform: scale(0);*/
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+#menuknap {
+  display: inline-block;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+}
+
+#menu {
+  list-style-type: none;
+  transition: transform 0.3s;
+  transform-origin: top left;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(137, 69, 248);
+  border-radius: 30px;
+  border: 2px solid rgb(108, 69, 248);
+}
+#menu li {
+  display: inline-block;
+  gap: 10px;
+  list-style: none;
+  margin: 3px;
+  padding: 3px;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 600px) {
+  #menuknap {
+    display: none;
+  }
+
+  #menu.hidden {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  #menu {
+    list-style-type: none;
+    transition: transform 0.3s;
+    transform-origin: top left;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    text-align: center;
+    position: sticky;
+  }
+
+  #menu li {
+    display: inline-block;
+  }
+  a {
+    color: rgb(0, 0, 0);
+  }
+
+  a:hover {
+    color: rgb(65, 40, 156);
+  }
+}
+
+
