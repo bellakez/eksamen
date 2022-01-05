@@ -1,5 +1,5 @@
 img {
-  border: 1px solid rgb(0, 0, 0);
+  border: 0.5px solid rgb(0, 0, 0);
 }
 #moodboard {
   padding: 10px;
@@ -7,11 +7,56 @@ img {
 #styletile {
   padding: 10px;
 }
-#section1 {
-    display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+#overskrift {
+  position: relative;
+}
+#svg {
+  width: 23%;
+  aspect-ratio: 740/560;
+  background-image: url(SVG/stol.svg);
+  background-size: cover;
+  position: absolute;
+  top: 5%;
+  left: 8%;
 }
 #section2 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+
+#section1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.textbox {
+  padding: 10px;
+  margin: 10px;
+}
+.img {
+  padding: 5px;
+  margin: 5px;
+}
+
+@media only screen and (min-width: 600px) {
+  #svg {
+    width: 15%;
+    aspect-ratio: 740/560;
+    background-image: url(SVG/stol.svg);
+    background-size: cover;
+    position: absolute;
+    top: 0%;
+    left: 8%;
+  }
+}
+/*#section1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row: 1fr auto;
+}
+.textbox1 {
+  grid-column: 1/2;
+}
+.textbox2 {
+  grid-column: 2/2;
+}
+}*/

@@ -23,9 +23,10 @@ button:hover {
   margin: 2px;
   background-color: rgb(223, 223, 223);
   position: relative;
-  height: 300px;
+  height: 350;
   display: grid;
   justify-content: center;
+  border-radius: 8px;
 }
 
 .btn {
