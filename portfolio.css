@@ -14,10 +14,6 @@ a {
 li {
   list-style: none;
 }
-button:hover {
-  background-color: rgb(139, 107, 255);
-  opacity: 50%;
-}
 .container {
   padding: 2px;
   margin: 2px;

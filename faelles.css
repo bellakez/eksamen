@@ -128,7 +128,7 @@ header {
 
 button:hover {
   background-color: rgb(139, 107, 255);
-  opacity: 50%;
+  opacity: 90%;
 }
 .knap {
   display: flex;
