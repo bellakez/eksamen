@@ -7,8 +7,11 @@ img {
 #styletile {
   padding: 10px;
 }
+#section1 {
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
 #section2 {
-  display: grid;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
