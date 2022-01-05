@@ -1,5 +1,3 @@
-
-
 html,
 body {
   margin: 0;
@@ -19,15 +17,19 @@ h1 {
   padding: 2px;
 }
 h2 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   text-align: center;
   font-size: 1.1rem;
-  padding: 2px; 
+  padding: 2px;
+}
+p {
+  padding: 7px;
+  margin: 5px;
 }
 a {
-   font-family: 'Source Sans Pro', sans-serif;
-   padding: 2px; 
-   font-size: 0.8rem;
+  font-family: "Source Sans Pro", sans-serif;
+  padding: 2px;
+  font-size: 0.8rem;
 }
 /*_____________burger menu______________*/
 
@@ -98,3 +100,5 @@ a {
     color: rgb(65, 40, 156);
   }
 }
+/*_________definere knapper_______*/
+

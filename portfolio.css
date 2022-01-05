@@ -1,8 +1,8 @@
 #section1 {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  position: relative;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 20px;
+  margin: 20px;
 }
 #section1,
 a {
@@ -17,89 +17,33 @@ li {
 button:hover {
   background-color: rgb(139, 107, 255);
   opacity: 50%;
-  width: 150px;
-  height: 80px;
 }
-.container1 {
+.container {
   padding: 2px;
   margin: 2px;
   background-color: rgb(223, 223, 223);
-  width: 150px;
-  height: 200px;
   position: relative;
+  height: 300px;
+  display: grid;
+  justify-content: center;
 }
-.container2 {
-  padding: 2px;
-  margin: 2px;
-  background-color: rgb(223, 223, 223);
-  width: 150px;
-  height: 200px;
-  position: relative;
-}
-.container3 {
-  grid-row: 2/2;
-  padding: 2px;
-  margin: 2px;
-  background-color: rgb(223, 223, 223);
-  width: 150px;
-  height: 200px;
-  position: relative;
-}
-.container4 {
-  grid-row: 2/2;
-  padding: 2px;
-  margin: 2px;
-  background-color: rgb(223, 223, 223);
-  width: 150px;
-  height: 200px;
-  position: relative;
-}
+
 button {
   background-color: rgb(0, 0, 0);
-  border: none;
-  /*border: 2px solid rgb(108, 69, 248);*/
-  padding: 12px 54px;
-  position: absolute;
-  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border-radius: none;
 }
 @media only screen and (min-width: 600px) {
   header,
   a {
     color: rgb(0, 0, 0);
   }
-  .container1 {
-  padding: 30px;
-  margin: 20px;
-  background-color: rgb(223, 223, 223);
-  width: 250px;
-  height: 300px;
-  position: relative;
-}
-.container2 {
-  padding: 30px;
-  margin: 20px;
-  background-color: rgb(223, 223, 223);
-  width: 250px;
-  height: 300px;
-  position: relative;
-}
-.container3 {
-  grid-row: 2/2;
-  padding: 30px;
-  margin: 20px;
-  background-color: rgb(223, 223, 223);
-  width: 250px;
-  height: 300px;
-  position: relative;
-}
-.container4 {
-  grid-row: 2/2;
-  padding: 30px;
-  margin: 20px;
-  background-color: rgb(223, 223, 223);
-  width: 250px;
-  height: 300px;
-  position: relative;
-}
+  #section1 {
+    padding: 40px;
+    margin: 40px;
+  }
 
 }
