@@ -22,6 +22,7 @@ h2 {
   font-size: 1.1rem;
   padding: 2px;
 }
+
 p {
   padding: 7px;
   margin: 5px;
@@ -76,7 +77,7 @@ header {
   top: 0;
   z-index: 50;
 }
-
+/*__________________menu stor skærnm_____________*/
 @media only screen and (min-width: 600px) {
   #menuknap {
     display: none;
@@ -107,6 +108,50 @@ header {
   a:hover {
     color: rgb(65, 40, 156);
   }
+  /*______________font og overskrifter_________*/
+  h1 {
+    font-family: "Oxanium", cursive;
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 2px;
+  }
+  h2 {
+    font-family: "Source Sans Pro", sans-serif;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 2px;
+  }
+  h3 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.1rem;
+    padding: 5px;
+  }
+
+  p {
+    padding: 5px;
+    margin: 5px;
+  }
+  a {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 5px;
+    font-size: 1.3rem;
+  }
+  .btn {
+    list-style: none;
+    background-color: rgb(192, 175, 255);
+    border:none;
+    border-radius: 8px;
+    padding: 8px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.6rem;
+    cursor: pointer;
+  }
+  #buttons {
+    height: 70px;
+    width: 600px;
+  }
 }
 /*_________definere knapper_______*/
 #buttons {
@@ -114,7 +159,7 @@ header {
   justify-content: space-evenly;
 }
 
-.btn {
+button {
   list-style: none;
   background-color: rgb(0, 0, 0);
   border: none;
@@ -124,11 +169,15 @@ header {
   text-decoration: none;
   display: inline-block;
   font-size: 0.6rem;
+  cursor: pointer;
+  padding: 8px 14px;
 }
 
 button:hover {
   background-color: rgb(139, 107, 255);
   opacity: 90%;
+  padding: 10px 16px;
+  border: none;
 }
 .knap {
   display: flex;
