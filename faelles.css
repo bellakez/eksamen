@@ -22,6 +22,12 @@ h2 {
   font-size: 1.1rem;
   padding: 2px;
 }
+h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.9rem;
+  padding: 7px;
+  margin: 5px;
+}
 
 p {
   padding: 7px;
@@ -99,11 +105,6 @@ header {
   #menu li {
     display: inline-block;
   }
-  header,
-  a {
-    color: rgb(0, 0, 0);
-    font-size: 1rem;
-  }
 
   a:hover {
     color: rgb(65, 40, 156);
@@ -134,12 +135,13 @@ header {
   a {
     font-family: "Source Sans Pro", sans-serif;
     padding: 5px;
-    font-size: 1.3rem;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
   }
   .btn {
     list-style: none;
     background-color: rgb(192, 175, 255);
-    border:none;
+    border: none;
     border-radius: 8px;
     padding: 8px 14px;
     text-align: center;
@@ -149,7 +151,7 @@ header {
     cursor: pointer;
   }
   #buttons {
-    height: 70px;
+    height: 50px;
     width: 600px;
   }
 }

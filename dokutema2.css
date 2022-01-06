@@ -18,6 +18,11 @@ img {
 .img {
   padding: 20px;
 }
+.box {
+  grid-column: 2/3;
+  display: grid;
+  justify-content: space-evenly;
+}
 @media only screen and (min-width: 600px) {
   section {
     display: grid;
@@ -26,13 +31,13 @@ img {
   }
   #section1 {
     padding: 50px;
-    background-color: rgb(139, 107, 255);
+    background-color: rgb(226, 226, 226);
     border-radius: 10px;
     padding: 20px;
   }
   #section2 {
     padding: 50px;
-    background-color: rgb(159, 132, 255);
+    background-color: rgb(235, 235, 235);
     border-radius: 10px;
     padding: 20px;
   }
@@ -40,7 +45,6 @@ img {
     grid-column: 2/3;
     display: grid;
     justify-content: space-evenly;
-    bottom: 0;
   }
   .ny {
     padding: 8px 16px;
@@ -57,5 +61,4 @@ img {
     grid-column: 3/3;
     grid-row: 1/2;
   }
-
 }
