@@ -27,7 +27,7 @@ li {
 }
 
 .btn {
-  background-color: rgb(192, 175, 255);
+  background-color: rgb(0, 0, 0);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,5 +50,13 @@ li {
     padding: 40px;
     margin: 40px;
   }
-
+  .btn {
+  background-color: rgb(192, 175, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  border-radius: none;
+  border: none;
+}
 }
