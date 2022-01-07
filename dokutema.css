@@ -16,10 +16,14 @@ img {
   max-width: 100%;
 }
 .img {
-  padding: 20px;
+  padding: 10px;
 }
 .box {
   grid-column: 2/3;
+  display: grid;
+  justify-content: space-evenly;
+}
+.box1 {
   display: grid;
   justify-content: space-evenly;
 }
@@ -27,7 +31,7 @@ img {
   section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
   }
   #section1 {
     padding: 50px;
@@ -61,4 +65,11 @@ img {
     grid-column: 3/3;
     grid-row: 1/2;
   }
+  /*__________________dokutema3______________*/
+    .box1 {
+    grid-column: 1/1;
+    display: grid;
+    justify-content: space-evenly;
+  }
 }
+

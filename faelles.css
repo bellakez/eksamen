@@ -19,12 +19,12 @@ h1 {
 h2 {
   font-family: "Source Sans Pro", sans-serif;
   text-align: center;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   padding: 2px;
 }
 h3 {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 7px;
   margin: 5px;
 }
@@ -32,6 +32,7 @@ h3 {
 p {
   padding: 7px;
   margin: 5px;
+  font-size: 0.9;
 }
 a {
   font-family: "Source Sans Pro", sans-serif;
@@ -113,24 +114,35 @@ header {
   h1 {
     font-family: "Oxanium", cursive;
     text-align: center;
-    font-size: 1.7rem;
-    padding: 2px;
+    font-size: 2rem;
+    padding: 20px;
+    margin: 20px;
   }
   h2 {
     font-family: "Source Sans Pro", sans-serif;
     text-align: center;
-    font-size: 1.1rem;
-    padding: 2px;
+    font-size: 1.7rem;
+    padding: 10px;
+    margin: 10px;
   }
   h3 {
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding: 5px;
+    margin: 5px;
   }
+  h4 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1rem;
+    padding: 5px;
+    margin: 5px;
+  }
+  
 
   p {
     padding: 5px;
     margin: 5px;
+    font-size: 0.9;
   }
   a {
     font-family: "Source Sans Pro", sans-serif;

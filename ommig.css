@@ -6,6 +6,7 @@ video {
   padding: 5px;
   margin: 5px;
 }
+
 section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -29,12 +30,31 @@ img {
 #section2 {
   background-color: rgb(226, 226, 226);
 }
-
-#tabel {
-    padding: 20px;
-    margin: 20px;
+#section3 {
+    padding: 30px;
+     display: flex;
+    justify-content: center;
 }
 
+#tabel {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+.text1 {
+    text-decoration: underline;
+    padding: 20px;
+}
+.text2 {
+    padding: 20px;
+}
+tr {
+    color: rgb(255, 255, 255);
+}
+td {
+    color: rgb(255, 255, 255);
+}
 
 @media only screen and (min-width: 600px) {
   #section1 {
@@ -46,4 +66,13 @@ img {
     padding: 20px;
     background-color: rgb(226, 226, 226);
   }
+  #svg {
+  width: 15%;
+  aspect-ratio: 230/260;
+  background-image: url(SVG/person.svg);
+  background-size: cover;
+  position: absolute;
+  top: 0%;
+  left: 7%;
+}
 }

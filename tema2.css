@@ -16,7 +16,7 @@ img {
   background-image: url(SVG/stol.svg);
   background-size: cover;
   position: absolute;
-  top: 5%;
+  top: 80%;
   left: 8%;
 }
 #section2 {
@@ -44,7 +44,7 @@ img {
     background-image: url(SVG/stol.svg);
     background-size: cover;
     position: absolute;
-    top: 0%;
+    top: 120%;
     left: 8%;
   }
 }
