@@ -45,6 +45,13 @@ img {
     border-radius: 10px;
     padding: 20px;
   }
+  /*______Det er kun tema3 der har section3_____*/
+  #section3 {
+    padding: 50px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 10px;
+    padding: 20px;
+  }
   .box {
     grid-column: 2/3;
     display: grid;
