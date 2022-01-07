@@ -1,3 +1,48 @@
 video {
-    width: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+#video {
+  padding: 5px;
+  margin: 5px;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+#billede {
+  width: 50%;
+  padding: 5px;
+  margin: 5px;
+}
+img {
+  border-radius: 10px;
+}
+#section1 {
+  background-color: rgb(235, 235, 235);
+}
+#section2 {
+  background-color: rgb(226, 226, 226);
+}
+
+#tabel {
+    padding: 20px;
+    margin: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+  #section1 {
+    background-color: rgb(235, 235, 235);
+    padding: 20px;
+  }
+
+  #section2 {
+    padding: 20px;
+    background-color: rgb(226, 226, 226);
+  }
 }
