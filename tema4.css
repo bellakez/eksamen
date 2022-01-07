@@ -11,7 +11,7 @@ img {
   position: relative;
 }
 #svg {
-  width: 23%;
+  width: 20%;
   aspect-ratio: 740/560;
   background-image: url(SVG/dune.svg);
   background-size: cover;
