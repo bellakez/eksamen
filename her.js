@@ -1,9 +1,16 @@
+
+
 window.addEventListener("load", sidenVises);
 
 // burgermenu //
 function sidenVises() {
   console.log("sidenVises");
+  console.log("windowResize");
+  window.addEventListener("resize", windowResize);
   document.querySelector("#menuknap").addEventListener("click", toggleMenu);
+  document
+    .querySelector("#rumskib")
+    .classList.add("animationiteration", "flyv");
 }
 
 function toggleMenu() {
@@ -17,4 +24,10 @@ function toggleMenu() {
   } else {
     document.querySelector("#menuknap").textContent = "<";
   }
+}
+
+//forholder sig til at skærmen er en bestemt størrelse
+function windowResize() {
+  console.log("windowResize");
+  let widthScreen = document.querySelector("#baggrund").clientWidth;
 }
