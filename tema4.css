@@ -19,6 +19,15 @@ img {
   top: 5%;
   left: 8%;
 }
+#baggrund {
+  width:100%;
+  aspect-ratio: 1920/630;
+  background-image: url(SVG/background.svg);
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}
+
 #section2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
