@@ -37,7 +37,7 @@ h4 {
 p {
   padding: 7px;
   margin: 5px;
-  font-size: 0.9;
+  font-size: 0.9rem;
   font-family: "Playfair Display", serif;
 }
 a {
@@ -149,7 +149,7 @@ header {
   p {
     padding: 5px;
     margin: 5px;
-    font-size: 0.8;
+    font-size: 0.9rem;
     font-family: "Playfair Display", serif;
     line-height: 25px;
   }
@@ -185,23 +185,11 @@ header {
     border: none;
   }
   a:hover {
-    color: rgb(192, 175, 255);
+    color: rg;
   }
   .knap {
     display: flex;
     justify-content: space-evenly;
-  }
-  #footer {
-    display: grid;
-    justify-content: space-evenly;
-  }
-  footer,
-  p {
-    color: rgb(0, 0, 0);
-  }
-  footer,
-  a:hover {
-    color:rgb(139, 107, 255);
   }
 }
 @media only screen and (max-width: 600px) {
@@ -228,12 +216,6 @@ header {
     cursor: pointer;
   }
 
-  button:hover {
-    background-color: rgb(139, 107, 255);
-    opacity: 90%;
-    padding: 10px 16px;
-    border: none;
-  }
   .knap {
     display: flex;
     justify-content: space-evenly;
@@ -242,20 +224,7 @@ header {
   a:hover {
     color: rgb(192, 175, 255);
   }
-  #footer {
-    display: grid;
-    justify-content: space-evenly;
-  }
-  footer, a {
-    color: rgb(0, 0, 0);
-    padding: 5px;
-  }
-  footer,
-  p {
-    color: rgb(0, 0, 0);
-  }
-  footer,
-  a:hover {
-    color: rgb(139, 107, 255);
+  footer {
+    background-color: rgb(192, 175, 255);
   }
 }
