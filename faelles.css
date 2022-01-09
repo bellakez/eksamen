@@ -28,11 +28,17 @@ h3 {
   padding: 7px;
   margin: 5px;
 }
+h4 {
+  padding: 7px;
+  margin: 5px;
+  font-family: "Raleway", sans-serif;
+}
 
 p {
   padding: 7px;
   margin: 5px;
   font-size: 0.9;
+  font-family: "Playfair Display", serif;
 }
 a {
   font-family: "Source Sans Pro", sans-serif;
@@ -85,8 +91,9 @@ header {
   top: 0;
   z-index: 50;
 }
-/*__________________menu stor skærnm_____________*/
+/*_________________stor skærnm_____________*/
 @media only screen and (min-width: 600px) {
+  /*__________________menu stor skærnm_____________*/
   #menuknap {
     display: none;
   }
@@ -128,13 +135,13 @@ header {
   }
   h3 {
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding: 5px;
     margin: 5px;
   }
   h4 {
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 1rem;
+    font-family: "raleway", sans-serif;
+    font-size: 1.1rem;
     padding: 5px;
     margin: 5px;
   }
@@ -142,13 +149,16 @@ header {
   p {
     padding: 5px;
     margin: 5px;
-    font-size: 0.9;
+    font-size: 0.8;
+    font-family: "Playfair Display", serif;
+    line-height: 25px;
   }
   header,
   a {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1rem;
     color: rgb(0, 0, 0);
+    margin: 5px;
   }
   .btn {
     list-style: none;
@@ -181,8 +191,24 @@ header {
     display: flex;
     justify-content: space-evenly;
   }
+  #footer {
+    display: grid;
+    justify-content: space-evenly;
+  }
+  footer,
+  p {
+    color: rgb(0, 0, 0);
+  }
+  footer,
+  a:hover {
+    color:rgb(139, 107, 255);
+  }
 }
 @media only screen and (max-width: 600px) {
+  header,
+  a {
+    margin: 5px;
+  }
   /*_________definere knapper_______*/
   .buttons {
     display: flex;
@@ -213,7 +239,23 @@ header {
     justify-content: space-evenly;
     padding: 10px;
   }
-  a:hover{
+  a:hover {
     color: rgb(192, 175, 255);
+  }
+  #footer {
+    display: grid;
+    justify-content: space-evenly;
+  }
+  footer, a {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+  }
+  footer,
+  p {
+    color: rgb(0, 0, 0);
+  }
+  footer,
+  a:hover {
+    color: rgb(139, 107, 255);
   }
 }

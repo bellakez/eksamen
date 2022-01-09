@@ -31,9 +31,9 @@ img {
   background-color: rgb(226, 226, 226);
 }
 #section3 {
-    padding: 30px;
-     display: flex;
-    justify-content: center;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
 }
 /*_____overskrift og svg fil mig_______*/
 #overskrift {
@@ -48,26 +48,43 @@ img {
   position: absolute;
   top: -20%;
   left: 8%;
+  animation-name: hop_sprite_kf;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+/*_______________ animationer svg-pige____________*/
+@keyframes hop_sprite_kf {
+  0% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
 
 #tabel {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(0, 0, 0);
-    border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
 }
 .text1 {
-    text-decoration: underline;
-    padding: 20px;
+  text-decoration: underline;
+  padding: 20px;
 }
 .text2 {
-    padding: 20px;
+  padding: 20px;
 }
 tr {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 td {
-    color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 @media only screen and (min-width: 600px) {
@@ -83,15 +100,31 @@ td {
   #overskrift {
     height: 170px;
   }
+  /*_______________pige svg fil________*/
   #svg {
-  width: 10%;
-  aspect-ratio: 400/550;
-  background-image: url(SVG/mig.svg);
-  background-size: cover;
-  position: absolute;
-  top: 0%;
-  left: 7%;
+    width: 10%;
+    aspect-ratio: 400/550;
+    background-image: url(SVG/mig.svg);
+    background-size: cover;
+    position: absolute;
+    top: 0%;
+    left: 7%;
+    animation-name: hop_sprite_kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-timing-function: linear;
+  }
+  /*_______________ animationer svg-pige____________*/
+  @keyframes hop_sprite_kf {
+    0% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
 }
-}
-
-
