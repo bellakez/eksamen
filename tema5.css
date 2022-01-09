@@ -19,6 +19,11 @@ img {
   top: 10%;
   left: 8%;
 }
+#section4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
 #section3 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
