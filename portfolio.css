@@ -25,7 +25,7 @@ li {
   justify-content: center;
   border-radius: 8px;
 }
-
+/*______classen btn er defineret anderledes fordi knappen skal passe box_____*/
 .btn {
   background-color: rgb(0, 0, 0);
   display: flex;
@@ -34,6 +34,7 @@ li {
   height: 80px;
   border-radius: none;
   border: none;
+  margin: 0;
 }
 /*__________box om billeder__________*/
 .img {

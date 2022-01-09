@@ -63,4 +63,9 @@ img {
     top: 1%;
     left: 4%;
   }
+  .buttons{
+      display: flex;
+      justify-content: space-evenly;
+  }
+
 }
