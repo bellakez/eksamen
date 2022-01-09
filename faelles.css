@@ -66,6 +66,7 @@ a {
   border: 2px solid rgb(108, 69, 248);
   position: sticky;
   z-index: 50;
+  margin: 0;
 }
 #menu li {
   display: inline-block;
@@ -146,7 +147,6 @@ header {
   header,
   a {
     font-family: "Source Sans Pro", sans-serif;
-    padding: 5px;
     font-size: 1rem;
     color: rgb(0, 0, 0);
   }
@@ -161,7 +161,7 @@ header {
     display: inline-block;
     font-size: 0.6rem;
     cursor: pointer;
-    margin: 50px;
+    margin: 10px;
   }
   .buttons {
     display: flex;
@@ -171,7 +171,7 @@ header {
   .btn:hover {
     background-color: rgb(139, 107, 255);
     opacity: 90%;
-    padding: 16px 24px;
+    padding: 10px 18px;
     border: none;
   }
   a:hover {
@@ -212,5 +212,8 @@ header {
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
+  }
+  a:hover{
+    color: rgb(192, 175, 255);
   }
 }
