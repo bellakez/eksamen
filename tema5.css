@@ -13,7 +13,7 @@ img {
 #svg {
   width: 23%;
   aspect-ratio: 740/560;
-  background-image: url(SVG/stol.svg);
+  background-image: url(SVG/logo.svg);
   background-size: cover;
   position: absolute;
   top: 10%;
@@ -41,7 +41,7 @@ img {
   #svg {
     width: 15%;
     aspect-ratio: 740/560;
-    background-image: url(SVG/stol.svg);
+    background-image: url(SVG/logo.svg);
     background-size: cover;
     position: absolute;
     top: 1%;
