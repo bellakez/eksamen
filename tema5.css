@@ -19,11 +19,7 @@ img {
   top: 10%;
   left: 8%;
 }
-/*____her defineres for section 1-5___*/
-#section5 {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
+/*____her defineres for section 1-4__*/
 
 #section4 {
   display: grid;
