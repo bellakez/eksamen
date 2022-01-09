@@ -20,7 +20,7 @@
   background-image: url(forside/kort.svg);
   background-size: 100%;
   background-repeat: no-repeat;
-  top: 26%;
+  top: 38%;
   left: 35%;
   width: 30%;
   animation-name: kort_sprite_kf;
@@ -110,7 +110,7 @@
     width: 25%;
   }
   #kort {
-    top: 43%;
+    top: 53%;
     left: 37%;
     width: 25%;
   }

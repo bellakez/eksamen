@@ -55,10 +55,10 @@ img {
 }
 @keyframes flyv_kf {
   0% {
-    transform: translateX(-200%);
+    transform: translateX(-120%);
   }
   100% {
-    transform: translateX(800%);
+    transform: translateX(500%);
   }
 }
 

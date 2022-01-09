@@ -35,6 +35,20 @@ img {
      display: flex;
     justify-content: center;
 }
+/*_____overskrift og svg fil mig_______*/
+#overskrift {
+  position: relative;
+  height: 100px;
+}
+#svg {
+  width: 15%;
+  aspect-ratio: 400/550;
+  background-image: url(SVG/mig.svg);
+  background-size: cover;
+  position: absolute;
+  top: -10%;
+  left: 8%;
+}
 
 #tabel {
     display: flex;
@@ -66,10 +80,13 @@ td {
     padding: 20px;
     background-color: rgb(226, 226, 226);
   }
+  #overskrift {
+    height: 170px;
+  }
   #svg {
-  width: 15%;
-  aspect-ratio: 230/260;
-  background-image: url(SVG/person.svg);
+  width: 10%;
+  aspect-ratio: 400/550;
+  background-image: url(SVG/mig.svg);
   background-size: cover;
   position: absolute;
   top: 0%;
