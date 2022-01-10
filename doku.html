@@ -212,9 +212,6 @@
         <div class="img">
           <img src="dokumentation/kode2.png" alt="process" />
         </div>
-        <div class="img">
-          <img src="dokumentation/kode-burger.png" alt="proces" />
-        </div>
         </div>
         <div class="textbox">
         <h3>CSS animation</h3>
@@ -270,11 +267,9 @@
         <div class="img">
           <img src="dokumentation/video-proces3.png" alt="process" />
         </div>
-        <div class="img">
-          <img src="dokumentation/video-proces4.png" alt="process" />
-        </div>
       </div>
     </section>
+    <hr>
       <!--Her starter section3-->
     <section id="section3">
       <div class="textbox">
@@ -298,7 +293,8 @@
         </div>
       </div>
     </section>
-      <!--Her starter section4-->
+    <hr>
+      <!--Her starter section4 BERT 1.take-->
     <section id="section4">
       <div class="textbox">
         <h3>BERT test første take</h3>
@@ -307,9 +303,15 @@
         <div class="img">
         <img src="dokumentation/bert-test.png" alt="bert-test">
         </div>
+        <p>Nedenstående kan BERT-testen ses ift. spørgsmål og svar-muligheder.</p>
+        <div class="knap">
+          <div class="btn">
+            <a href="https://docs.google.com/forms/d/1VnmhHYfp3lrnNIEjEvK_FfVHgesszoZxyX73pxElhPA/edit#responses">BERT</a>
+          </div>
+        </div>
         <h4>Tilgængelighed</h4>
         <p>Jeg ville gerne finde ud af om sitet var tilgængeligt. Derfor ville jeg gerne vide om teksten var læsevenlig. Jeg lavede en skala, hvor 1 var "Nej, det er svært at læse indholdet?" og 5 var "Ja, jeg kan godt læse indholdet?"</p>
-        <p>Ud fra dette kan jeg konkludere at teksten er letlæselig og brugervenlig, ergo er den tilgængelig.</p>
+        <p>Ud fra dette kan jeg konkludere at teksten er letlæselig og brugervenlig, da 8/9 dvs. ca. 90% finder tekten tilgængelig og mulig at forstå og læse. Siden bedømmelsen ligger generelt ligger på 5 ud f 5 fra 8/9 test-personer, kan jeg forholde mig til at jeg kan bibeholde de fonte og font-støørelser.</p>
         <div class="img">
         <img src="dokumentation/bert-resultat.png" alt="bert-test">
         </div>
@@ -317,29 +319,93 @@
       <div class="textbox">
         <h4>Visuelt layout</h4>
         <p>Jeg spurgte herefter mine testpersoner om visuelle layout, hvor 1 var "Forvirrende" og 5 var "Gennemført visuelt layout"</p>
-        <p>Ud fra dette kan jeg konkludere at det visuelle layout må være acceptabelt, eftersom svarene generelt lå over middel.</p>
+        <p>Ud fra dette kan jeg konkludere at det visuelle layout må være acceptabelt, eftersom svarene generelt lå over middel og 55% af deltagerne gav det visuelle layout den højeste skala "gennemført visuelt layout".</p>
         <div class="img">
           <img src="dokumentation/bert-resultat1.png" alt="bert-test">
         </div>
         <h4>Navigation og funktionalitet</h4>
         <p>Jeg ville gerne finde ud af om mit site var interaktivt og nemt at navigere rundt i. Jeg definerede derfor 1 som "nej, det er svært at vide hvor man kan klikke" og 5 som "Ja, det er nemt at komme rundt".</p>
+        <p>Ud fra dette kan jeg konkludere at 100% af mine test-personer nemt kan navigere rundt, hvilket betyder at ud fra de testede personer må det være nemt at navigere rundt.</p>
         <div class="img">
           <img src="dokumentation/bert-resultat2.png" alt="bert-test">
         </div>
         <h4>Design</h4>
         <p>Jeg ville til sidst gerne have en idé om hvad burgerne synes om designet på hjemmesiden. Derfor lavede jeg en skala fra 1-5, hvor 1 var "kedelig" og 5 var "gennemført".</p>
+        <p>Ud fra testen kan jeg udvinde det resultat, at 55.6% og 44.4% af testpersonerne rater designet til over middel på 4/5 ud af 5.</p>
         <div class="img">
           <img src="dokumentation/bert-resultat3.png" alt="bert-test">
         </div>
       </div>
-      
-    </section>
-    <!--Her starter section5-->
-    <section id="section5">
+      </section>
+      <!--Her starter section5 BERT fortsat-->
+      <section id="section5">
+        <div class="textbox">
+        <h3>Kvalitativt materiale</h3>
+        <p>Sidst i min BERT-test lavede jeg et spørgsmål hvor man havde mulighed for at kunne lave et bruger-defineret svar. Dette var for at se om deltagerne havde oplevet nogle tekniske udfordringer, som jeg skulle være opmærksom på. Jeg kunne stadig udvinde noget kvantitavt materiale ud fra dette, da 70% ikke havde oplevet nogle tekniske udfordringer.</p>
+        <p>Jeg fandt ud af at på nogens enheder ikke kunne fremvise spillet (tema4) på mobil. Jeg fandt desuden ud af at der var nogle stavefejl.</p>
+        <p>Desuden sagde en person således: "Det er en hamrende god hjemmeside! Jeg ligger mærke til, at du har en "back-to-top" knap, hvilket er super godt, da dine sider er lange (men gode). Det eneste jeg ville sige er, at knapperne på din "Portfolio" side er store, men det er kun når musen er på selve skriften "Tema2", at der bliver trykket. Der gik lidt tid, før det gik op for mig, at det ikke var hele knappen man kunne trykke på, men at det kun var teksten, man skulle trykke på. Mobil versionen er også rigtig fin! "</p>
+        <p>Dette gjorde at jeg måtte tilbage til min kode for at finde ud af hvorfor, hertil fandt jeg ud af jeg havde lagt en div uden om a-tagget for definere knappen, som jeg havde designet i css, kan man ikke klikke på hele knappen, men kun hvor a-tagget var. Hvis jeg havde defineret div'en inde i a-tagget havde knappen kunne klikkes på, ikke kun på skriften.</p>
+        <div class="img">
+          <img src="dokumentation/bert-kvalitativt.png" alt="bert-test">
+        </div>
+      </div>
+        <div class="textbox">
+          <h3>Konklusion</h3>
+          <h4>Overvejelser</h4>
+          <p>Ud fra testen kan jeg konkludere at mit site er funktionelt, tilgængeligt, visuelt komplimenterende og nemt at navigere rundt i med en generel bedømmelse på 4/5 ud af 5 i alle kategorier. Dog skal man tage højde for at det er en lille gruppe deltagere og derfor vil svar-raten ikke være særlig varierende.</p>
+          <p>Nogle af svarmulighederne kan også tolkes som ledende fx. "nej, det er svært at vide hvor man skal klikke", dette kan godt være et lidt for specifikt svar ift. læsevenlighed og tilgængelighed.</p>
+          <p>Endvidere kunne det have været praktisk at se fra hvilken enhed deltagerne så sitet fra, da jeg nemmere ville kunne definere hvor eventuelle fejl er og om det er responsivt fra alle enheder. Altså ville jeg kunne få en mere specifik indsigt i hvad deltagerne ser.</p>
+          <h4>Forbedringer</h4>
+          <p>Generelt ifølge BERT-testen skal jeg ikke lave de store ændringer, da de generelle svar fra testpersonerne ligger lovende ift. mine spørgsmål om funktionalitet, tilgængelighed, navigation og design. Jeg kan dog ud fra det kvalitative materiale, rette stavefejl og ændre knapper på portfolio-siden så de er mere brugervenlige.</p>
+          <p>Jeg undersøgte et af svarene som lød: "spillet virker ikke til mobil", og desværre virker det til de fleste mobiler, men nogle vil det ikke fungere og jeg kan ikke konkludere hvorfor det kan lade sig gøre.</p>
+        </div>
+      </section>
+      <hr>
+    <!--Her starter section6 BERT 2.take-->
+      <section id="section6">
+          <div class="textbox">
+            <h3>BERT-test take 2</h3>
+            <h4>Ændring</h4>
+            <p>Da jeg ud fra min første BERT-test lærte at min knapper skulle kunne klikkes på, på hele knappen og ikke kun på a-tagget for at gøre dem mere brugervenlige, ændrede jeg dette før jeg sendte min BERT-test ud igen. Dette kan ses på PORTFOLIO siden.</p>
+            <p>Måden hvor på jeg ændrede dette var ved at ligge en div ind i a-tagget, som designede knappen, istedet for at have en div uden om, så man kun kunne klikke på a-tagget.</p>
+            <p>Jeg ændrede desuden de stavefejl der var pointeret.</p>
+          </div>
+          <div class="textbox">
+            <h3>skriv her</h3>
+          </div>
+      </section>
+      <hr>
+      <!--Her starter section 7 5-sekundertest-->
+      <section id="section7">
+        <div class="textbox">
+          <h3>5-sekunders-test</h3>
+          <p>Jeg lavede en 5-sekunders test på sitet, for at få et indblik og en forståelse omkring man hurtigt får en forståelse af hvad sitet handler om. Jeg ville også gerne vide om det visuelle design var spændende, da det er forsiden som er spring-brættet for hele sitet.</p>
+          <h4>Selve testen</h4>
+          <p>Sørgsmål: Hvad handler sitet om?</p>
+          <p>Svar: "Portfolio af en der hedder isabella" - testperson</p>
+          <p>Sørgsmål: Hvad var mest iøjenfaldende</p>
+          <p>Svar: "Animationerne som ligsom kommer ud af skærmen og gør en nysgerrig" - testperson</p>
+          <p>Sørgsmål: Beskriv sitet med ét ord?</p>
+          <p>Svar: "Futureristisk" - testperson</p>
+        </div>
+        <div class="textbox">
+          <h4>Konklusion</h4>
+          <p>Jeg kan ud fra min 5-sekunders-test konkludere at man kan forstå hvad det handler om og at sitets forside gør en nysgerrig til at man vil se mere af sitet.</p>
+          <p>Denne information kan jeg bruge til at bekræfte mit design og valg af elementer på forsiden</p>
+          <h4>Overvejelser</h4>
+          <p>Testen er udført på en medstuderende, så test-personen har noget baggrundsviden, som gør at personen ikke er den mest reelle kandidat for denne test. Samt er testen eget entydig, da den kun er udført på én person, så det er ikke en særlig bred mening.</p>
+        <div class="img">
+        <img src="dokumentation/5-sekunderstest.png" alt="5-sekunders-test">
+        </div>
+        </div>
+      </section>
+      <hr>
+    <!--Her starter last_section-->
+    <h2>Forbedringer og fremtidsudsigter</h2>
+    <section id="last_section">
       <div class="textbox">
-        <h3>Overvejelser og forbedringer</h3>
-        <p>Jeg fandt ud af gennem </p>
-        <p>Jeg lavede bert-testen med google Google doc, og lavede linear scale til alle spørgsmål, for at få noget kvantitavt materiale.</p>
+        <h3>Forbedringer</h3>
+        <p></p>
         <div class="img">
         <img src="dokumentation/bert-test.png" alt="process">
         </div>

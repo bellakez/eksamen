@@ -34,7 +34,10 @@ li {
   height: 80px;
   border-radius: none;
   border: none;
-  margin: 0;
+  margin-left: -6px;
+  margin-right: -6px;
+  margin-top: -7px;
+  margin-bottom: 2px;
 }
 .btn:hover {
   height: 100px;
@@ -63,6 +66,7 @@ li {
     height: 80px;
     border-radius: none;
     border: none;
+    font-size: 1rem;
   }
   
 }

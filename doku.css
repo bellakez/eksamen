@@ -18,6 +18,18 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+#section6 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+#section7 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+#last_section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
 /*___________assets______*/
 #assets {
   display: grid;
@@ -91,3 +103,9 @@
   background-size: cover;
 }
 
+@media only screen and (min-width: 600px) {
+section {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+}
