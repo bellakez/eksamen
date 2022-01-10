@@ -5,7 +5,7 @@
 #section1 .section_wrapper {
   background-image: url("forside/splashbillede1.png");
   width: 100%;
-  height: 40vh;
+  height: 65vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 10%;
@@ -20,9 +20,9 @@
   background-image: url(forside/kort.svg);
   background-size: 100%;
   background-repeat: no-repeat;
-  top: 30%;
-  left: 35%;
-  width: 30%;
+  top: 50%;
+  left: 33%;
+  width: 35%;
   animation-name: kort_sprite_kf;
   animation-duration: 5s;
   animation-iteration-count: infinite;
@@ -43,6 +43,7 @@
     transform: scale(0.8);
   }
 }
+
 #cirkel {
   position: absolute;
   width: 50%;
@@ -67,6 +68,33 @@
     transform: rotate3d(0deg);
   }
 }
+/*__________mobil (media-q fordi den ikke vil animere udenfor media)________*/ 
+@media only screen and (max-width: 600px) {
+  #cirkel {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-image: url(forside/cirkel.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  top: 10%;
+  left: 40%;
+  width: 33%;
+  animation-name: cirkel_sprite_kf;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+@keyframes cirkel_sprite_kf {
+  from {
+    transform: rotate3d(0.5, 0.5, 0.5, 360deg);
+  }
+  to {
+    transform: rotate3d(0deg);
+  }
+}
+}
 
 /*___________________ section2_______________*/
 #section2 {
@@ -87,35 +115,6 @@
 #section3 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-}
-/*_______________ skærm__________*/
-
-@media only screen and (min-width: 600px) {
-  #section1 .section_wrapper {
-    background-image: url("forside/splashbillede1.png");
-    width: 100%;
-    height: 73vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 10%;
-    padding: 15px;
-  }
-
-  #cirkel {
-    top: 20%;
-    left: 40%;
-    width: 25%;
-  }
-  #kort {
-    top: 53%;
-    left: 37%;
-    width: 25%;
-  }
-
-  header,
-  a {
-    color: rgb(0, 0, 0);
-  }
 }
 
 /*________animationer trappe_____*/
@@ -238,5 +237,53 @@
   }
   60% {
     transform: translateY(-15px);
+  }
+}
+/*_______________ skærm__________*/
+
+@media only screen and (min-width: 600px) {
+  #section1 .section_wrapper {
+    background-image: url("forside/splashbillede1.png");
+    width: 100%;
+    height: 73vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 10%;
+    padding: 15px;
+  }
+  #cirkel {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  background-image: url(forside/cirkel.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+    top: 20%;
+    left: 40%;
+    width: 25%;
+  animation-name: cirkel_sprite_kf;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: both;
+  animation-timing-function: linear;
+}
+  @keyframes cirkel_sprite_kf {
+  from {
+    transform: rotate3d(0.5, 0.5, 0.5, 360deg);
+  }
+  to {
+    transform: rotate3d(0deg);
+  }
+  }
+
+  #kort {
+    top: 53%;
+    left: 37%;
+    width: 25%;
+  }
+
+  header,
+  a {
+    color: rgb(0, 0, 0);
   }
 }

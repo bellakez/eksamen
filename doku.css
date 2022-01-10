@@ -14,6 +14,23 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+#section5 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+/*___________assets______*/
+#assets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  background-color: rgb(226, 226, 226);
+}
+.elementer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  padding: 10px;
+}
+
+
 .textbox {
   padding: 10px;
   margin: 10px;
@@ -22,3 +39,55 @@
   padding: 5px;
   margin: 5px;
 }
+/*________definere svg filer______*/
+#computer {
+  width: 80%;
+  aspect-ratio: 300/170;
+  background-image: url(SVG/computer.svg);
+  background-size: cover;
+}
+#koder {
+  width: 50%;
+  aspect-ratio: 200/160;
+  background-image: url(SVG/js_css_html.svg);
+  background-size: cover;
+}
+#billede {
+  width: 50%;
+  aspect-ratio: 260/180;
+  background-image: url(SVG/billede_video.svg);
+  background-size: cover;
+}
+#ux {
+  width: 40%;
+  aspect-ratio: 150/150;
+  background-image: url(SVG/ux.svg);
+  background-size: cover;
+}
+#wireframe {
+  width: 40%;
+  aspect-ratio: 210/240;
+  background-image: url(SVG/wireframe.svg);
+  background-size: cover;
+
+}
+#pencel {
+  width: 30%;
+  aspect-ratio: 170/260;
+  background-image: url(SVG/pencel.svg);
+  background-size: cover;
+}
+#person {
+  width: 40%;
+  aspect-ratio: 230/260;
+  background-image: url(SVG/person.svg);
+  background-size: cover;
+
+}
+#mig {
+  width: 30%;
+  aspect-ratio: 400/550;
+  background-image: url(SVG/mig.svg);
+  background-size: cover;
+}
+
