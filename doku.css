@@ -55,6 +55,13 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 }
+video {
+  width: 100%;
+}
+#video {
+  padding: 5px;
+  margin: 5px;
+}
 /*________definere svg filer______*/
 #computer {
   width: 80%;
