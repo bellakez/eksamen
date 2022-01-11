@@ -13,7 +13,7 @@ img {
 #svg {
   width: 23%;
   aspect-ratio: 740/560;
-  background-image: url(SVG/stol.svg);
+  background-image: url(svg/stol.svg);
   background-size: cover;
   position: absolute;
   top: 10%;

@@ -43,7 +43,7 @@ img {
 #svg {
   width: 15%;
   aspect-ratio: 400/550;
-  background-image: url(SVG/mig.svg);
+  background-image: url(svg/mig.svg);
   background-size: cover;
   position: absolute;
   top: -20%;
@@ -104,7 +104,7 @@ td {
   #svg {
     width: 10%;
     aspect-ratio: 400/550;
-    background-image: url(SVG/mig.svg);
+    background-image: url(svg/mig.svg);
     background-size: cover;
     position: absolute;
     top: 0%;

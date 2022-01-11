@@ -13,7 +13,7 @@ img {
 #svg {
   width: 20%;
   aspect-ratio: 740/560;
-  background-image: url(SVG/dune.svg);
+  background-image: url(svg/dune.svg);
   background-size: cover;
   position: absolute;
   top: 5%;
@@ -30,7 +30,7 @@ img {
 #baggrund {
   width:100%;
   aspect-ratio: 1920/630;
-  background-image: url(SVG/background.svg);
+  background-image: url(svg/background.svg);
   background-size: cover;
   position: relative;
   z-index: -1;
@@ -39,7 +39,7 @@ img {
   #rumskib {
   width: 70%;
   aspect-ratio: 2200/400;
-  background-image: url(SVG/flyv.svg);
+  background-image: url(svg/flyv.svg);
   background-size: cover;
   position: absolute;
   top: 25%;
@@ -88,7 +88,7 @@ img {
   #svg {
     width: 15%;
     aspect-ratio: 740/560;
-    background-image: url(SVG/dune.svg);
+    background-image: url(svg/dune.svg);
     background-size: cover;
     position: absolute;
     top: 0%;

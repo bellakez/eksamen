@@ -78,51 +78,51 @@ video {
 #computer {
   width: 80%;
   aspect-ratio: 300/170;
-  background-image: url(SVG/computer.svg);
+  background-image: url(svg/computer.svg);
   background-size: cover;
 }
 #koder {
   width: 50%;
   aspect-ratio: 200/160;
-  background-image: url(SVG/js_css_html.svg);
+  background-image: url(svg/js_css_html.svg);
   background-size: cover;
 }
 #billede {
   width: 50%;
   aspect-ratio: 260/180;
-  background-image: url(SVG/billede_video.svg);
+  background-image: url(svg/billede_video.svg);
   background-size: cover;
 }
 #ux {
   width: 40%;
   aspect-ratio: 150/150;
-  background-image: url(SVG/ux.svg);
+  background-image: url(svg/ux.svg);
   background-size: cover;
 }
 #wireframe {
   width: 40%;
   aspect-ratio: 210/240;
-  background-image: url(SVG/wireframe.svg);
+  background-image: url(svg/wireframe.svg);
   background-size: cover;
 
 }
 #pencel {
   width: 30%;
   aspect-ratio: 170/260;
-  background-image: url(SVG/pencel.svg);
+  background-image: url(svg/pencel.svg);
   background-size: cover;
 }
 #person {
   width: 40%;
   aspect-ratio: 230/260;
-  background-image: url(SVG/person.svg);
+  background-image: url(svg/person.svg);
   background-size: cover;
 
 }
 #mig {
   width: 30%;
   aspect-ratio: 400/550;
-  background-image: url(SVG/mig.svg);
+  background-image: url(svg/mig.svg);
   background-size: cover;
 }
 

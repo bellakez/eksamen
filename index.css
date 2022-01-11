@@ -127,7 +127,7 @@
 #computer {
   width: 34.8%;
   aspect-ratio: 300/170;
-  background-image: url(SVG/computer.svg);
+  background-image: url(svg/computer.svg);
   position: absolute;
   top: 3%;
   left: 8%;
@@ -141,7 +141,7 @@
 #koder {
   width: 20%;
   aspect-ratio: 200/160;
-  background-image: url(SVG/js_css_html.svg);
+  background-image: url(svg/js_css_html.svg);
   position: absolute;
   top: 11.3%;
   left: 41.8%;
@@ -155,7 +155,7 @@
 #billede {
   width: 22%;
   aspect-ratio: 260/180;
-  background-image: url(SVG/billede_video.svg);
+  background-image: url(svg/billede_video.svg);
   position: absolute;
   top: 23.2%;
   left: 62%;
@@ -169,7 +169,7 @@
 #ux {
   width: 15%;
   aspect-ratio: 150/150;
-  background-image: url(SVG/ux.svg);
+  background-image: url(svg/ux.svg);
   position: absolute;
   top: 36%;
   left: 50.3%;
@@ -183,7 +183,7 @@
 #wireframe {
   width: 18%;
   aspect-ratio: 210/240;
-  background-image: url(SVG/wireframe.svg);
+  background-image: url(svg/wireframe.svg);
   position: absolute;
   top: 46%;
   left: 18%;
@@ -197,7 +197,7 @@
 #pencel {
   width: 16%;
   aspect-ratio: 170/260;
-  background-image: url(SVG/pencel.svg);
+  background-image: url(svg/pencel.svg);
   position: absolute;
   top: 55.5%;
   left: 50%;
@@ -211,7 +211,7 @@
 #person {
   width: 16%;
   aspect-ratio: 230/260;
-  background-image: url(SVG/person.svg);
+  background-image: url(svg/person.svg);
   position: absolute;
   top: 76.7%;
   left: 40%;
