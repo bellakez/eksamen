@@ -26,6 +26,10 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+#section8 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
 #last_section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -61,6 +65,10 @@ video {
 #video {
   padding: 5px;
   margin: 5px;
+}
+.lighthouse {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
 }
 /*________definere svg filer______*/
 #computer {
