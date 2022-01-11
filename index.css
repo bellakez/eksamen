@@ -55,19 +55,19 @@
   left: 40%;
   width: 30%;
   animation-name: cirkel_sprite_kf;
-  animation-duration: 5s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
   animation-fill-mode: both;
   animation-timing-function: linear;
 }
-@keyframes cirkel_sprite_kf {
-  from {
-    transform: rotate3d(0.5, 0.5, 0.5, 360deg);
+  @keyframes cirkel_sprite_kf {
+  0%{transform: rotate3d(0,-1,0.5,20deg);transform-style:preserve-3d;}
+  25%{transform: rotate3d(0,-1,0.5,110deg);transform-style:preserve-3d;}
+  50%{transform: rotate3d(0,-1,0.5,200deg)}
+  75%{transform: rotate3d(0,-1,0.5,290deg);transform-style:preserve-3d;}
+  100%{transform: rotate3d(0,-1,0.5,380deg);transform-style:preserve-3d;}
   }
-  to {
-    transform: rotate3d(0deg);
-  }
-}
+
 /*__________mobil (media-q fordi den ikke vil animere udenfor media)________*/ 
 @media only screen and (max-width: 600px) {
   #cirkel {
@@ -81,19 +81,18 @@
   left: 40%;
   width: 33%;
   animation-name: cirkel_sprite_kf;
-  animation-duration: 6s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
   animation-fill-mode: both;
   animation-timing-function: linear;
 }
-@keyframes cirkel_sprite_kf {
-  from {
-    transform: rotate3d(0.5, 0.5, 0.5, 360deg);
+  @keyframes cirkel_sprite_kf {
+  0%{transform: rotate3d(0,-1,0.5,20deg);transform-style:preserve-3d;}
+  25%{transform: rotate3d(0,-1,0.5,110deg);transform-style:preserve-3d;}
+  50%{transform: rotate3d(0,-1,0.5,200deg)}
+  75%{transform: rotate3d(0,-1,0.5,290deg);transform-style:preserve-3d;}
+  100%{transform: rotate3d(0,-1,0.5,380deg);transform-style:preserve-3d;}
   }
-  to {
-    transform: rotate3d(0deg);
-  }
-}
 }
 
 /*___________________ section2_______________*/
@@ -262,19 +261,19 @@
     left: 40%;
     width: 25%;
   animation-name: cirkel_sprite_kf;
-  animation-duration: 5s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
   animation-fill-mode: both;
   animation-timing-function: linear;
 }
   @keyframes cirkel_sprite_kf {
-  from {
-    transform: rotate3d(0.5, 0.5, 0.5, 360deg);
+  0%{transform: rotate3d(0,-1,0.5,20deg);transform-style:preserve-3d;}
+  25%{transform: rotate3d(0,-1,0.5,110deg);transform-style:preserve-3d;}
+  50%{transform: rotate3d(0,-1,0.5,200deg)}
+  75%{transform: rotate3d(0,-1,0.5,290deg);transform-style:preserve-3d;}
+  100%{transform: rotate3d(0,-1,0.5,380deg);transform-style:preserve-3d;}
   }
-  to {
-    transform: rotate3d(0deg);
-  }
-  }
+
 
   #kort {
     top: 53%;

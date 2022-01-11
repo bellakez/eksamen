@@ -186,9 +186,6 @@ header {
     padding: 10px 18px;
     border: none;
   }
-  a:hover {
-    color: rg;
-  }
   .knap {
     display: flex;
     justify-content: space-evenly;
