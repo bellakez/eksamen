@@ -200,8 +200,15 @@
         <div class="img">
           <img src="dokumentation/wireframe-web.png" alt="web" />
         </div>
-        <p>prototype her</p>
+        <h4>Prototype</h4>
+        <p>Jeg lavede en prototype til sitet, men jeg ændrede en del i layoutet, da jeg begyndte at kode fordi jeg lavede flere undersider og havde mere indhold og materiale end jeg havde lavet på prototypen</p>
+        <p>Derfor vil jer mene at prototypen var et godt redskab til at have en ide om hvad jeg ville med designet, men jeg lavede den ikke så detaljeret som jeg havde ønsket, da jeg ikke føte jeg havde nok tid. Derfor er materialet i prototypen heller ikke entydigt med det der er på hjemmesiden.</p>
+        <div class="knap">
+          <div class="btn">
+            <a href="https://xd.adobe.com/view/71f6956b-a98e-48e3-ae40-627d0025a100-24a5/">Prototype</a>
         </div>
+        </div>
+      </div>
         <div class="textbox">
         <h3>Kodning process</h3>
         <p>
@@ -298,7 +305,7 @@
       <!--Her starter section4 BERT 1.take-->
     <section id="section4">
       <div class="textbox">
-        <h3>BERT test første take</h3>
+        <h3>BERT test take 1</h3>
         <p>Da mit site hovedsageligt var færdigt, lavede jeg en BERT-test for at få et overblik over om sitet var funktionelt, havde et godt design-mæssigt layout og var interaktivt.</p>
         <p>Jeg lavede bert-testen med google Google doc, og lavede linear scale til alle spørgsmål, for at få noget kvantitavt materiale.</p>
         <div class="img">
@@ -331,7 +338,7 @@
           <img src="dokumentation/bert-resultat2.png" alt="bert-test">
         </div>
         <h4>Design</h4>
-        <p>Jeg ville til sidst gerne have en idé om hvad burgerne synes om designet på hjemmesiden. Derfor lavede jeg en skala fra 1-5, hvor 1 var "kedelig" og 5 var "gennemført".</p>
+        <p>Jeg ville til sidst gerne have en idé om hvad brugerne synes om designet på hjemmesiden. Derfor lavede jeg en skala fra 1-5, hvor 1 var "kedelig" og 5 var "gennemført".</p>
         <p>Ud fra testen kan jeg udvinde det resultat, at 55.6% og 44.4% af testpersonerne rater designet til over middel på 4/5 ud af 5.</p>
         <div class="img">
           <img src="dokumentation/bert-resultat3.png" alt="bert-test">
@@ -367,12 +374,13 @@
           <div class="textbox">
             <h3>BERT-test take 2</h3>
             <h4>Ændring</h4>
+            <p>BERT testen, anden omgang, efter forbedringer, er med samme spørgsmål, da jeg gerne ville kunne sammenligne dataen helt exact og veje svar fra BERT1 op mod BERT2.</p>
             <p>Da jeg ud fra min første BERT-test lærte at min knapper skulle kunne klikkes på, på hele knappen og ikke kun på a-tagget for at gøre dem mere brugervenlige, ændrede jeg dette før jeg sendte min BERT-test ud igen. Dette kan ses på PORTFOLIO siden.</p>
             <p>Måden hvor på jeg ændrede dette var ved at ligge en div ind i a-tagget, som designede knappen, istedet for at have en div uden om, så man kun kunne klikke på a-tagget.</p>
             <p>Jeg ændrede desuden de stavefejl der var pointeret.</p>
           </div>
           <div class="textbox">
-            <h3>skriv her</h3>
+            <h3>Resultat</h3>
           </div>
       </section>
       <hr>
@@ -415,27 +423,35 @@
         </div>
         <div class="textbox">
           <h4>Resultat før ændringer</h4>
+          <div class="lighthouse">
           <div class="img">
             <img src="dokumentation/lighthousetest1.png" alt="lighthousetest">
           </div>
           <div class="img">
             <img src="dokumentation/lighthousetest2.png" alt="lighthousetest">
           </div>
+        </div>
         <h4>Resultat efter ændringer</h4>
+        <div class="lighthouse">
           <div class="img">
             <img src="dokumentation/lighthousetest3.png" alt="lighthousetest">
           </div>
           <div class="img">
             <img src="dokumentation/lighthousetest4.png" alt="lighthousetest">
           </div>
+          </div>
           <p>Som kan ses ud fra ovenstående billeder blev tilgænglighed, brugervenlighed, performance og layout bedre med lighthousetest, da jeg fik et indblik i nogle faktorer jeg selv havde overset.</p>
         </div>
       </section>
+      <hr>
     <!--Her starter last_section-->
     <h2>Forbedringer og fremtidsudsigter</h2>
     <section id="last_section">
       <div class="textbox">
         <h3>Forbedringer</h3>
+        <h4>CSS</h4>
+        <p>Jeg kunne have lavet alt min css kode på et stylesheet, hvilket ville have været bedre for loadingsprocessen, da der ville have være færre anmodninger om HTTP. Jeg valgte dog at have mange css filer, da det var mere overskueligt for mig at kode, men til en anden gang ville jeg nok have holdt mig til 1, da det ville gøre perfomancen bedre på sitet.</p>
+        <h4>Forskel?</h4>
         <p>Jeg fandt ud af at på mobil-enhed virker animationen af cirklen ikke på forsiden, men sætter man browseren til movilversion virker det. Det kunne jeg ikke definere, hvordan kan lade sig gøre, da mobil-browseren skulle repræsentere mobilversion. Desuden opdagede jeg at på en enhed (også mobil) kan videoen på om mig siden ikke afspilles. Da der ikke er noget mønster for hvorfor noget virker på nogle enheder, og ikke på andre, kan jeg ikke konkludere hvad fejlen skulle være.</p>
         <p>På en mobil enhed kom section2 ikke til syne på forsiden, men på tre andre mobile enheder gjorde den, det kan jeg heller ikke forklare eller definere fra koden.</p>
         <p>Nedenstående kan 2 mobiler ses inde på samme url, men ser forskellige ud, selvom de er åbnet begge i Safari.</p>
@@ -457,9 +473,22 @@
         ></video>
       </div>
       <p>Jeg kunne have taget en beslutning om at fjerne noget af animationen, fx på forsiden, hvorpå jeg bare kunne have lavet et splashbillede der var statisk. Jeg valgte dog at beholde det originale design, da det virker på desktop, androids (af de testede) og "kun" kunne have nogle visuelle problemer på nogle iPhones.</p>
-      </div>
+    </div>
       <div class="textbox">
-
+        <h3>Fremtidsudsigter</h3>
+        <h4>Mere JavaScript</h4>
+        <p>Havde jeg haft mere tid ville jeg gerne have lavet noget mere animeret layout i JavaScript under siden om tema4. Dette kunne fx være nogle flere UI-elementer man kunne klikke på, hvorpå der skete nogle andre definerede animationer i css</p>
+        <h4>Mere indhold</h4>
+        <p>Jeg ville også gerne have lavet en html fil mere til hvert tema med en mere uddybende dokumentation, da jeg fx til tema4 havde filmet en sketch-prototype til spillet eller at jeg i tema3 havde mange flere sketches og resultater fra vores Art room.</p>
+        <h4>Layout</h4>
+        <p>Jeg ville også have lavet et layout-diagram til siderne, da det ville have haft givet mig et bedre overblik og strukturen på de individuelle html-filer.</p>
+        <h4>Mere fordybelse</h4>
+        <p>Jeg synes at jeg følte mig lidt tidspresset ift. at få så meget materiale og argumentation for de beslutninger jeg havde taget, at jeg synes til tider ikke helt jeg kom orden i dyben eller fik været så kreativ, som jeg synes jeg kan være. Et eksempel kunne være prototypen for sitet her. Jeg ville gerne have været mere konsekvens med fonte, farver, billeder osv., men jeg valgt at lave en interaktiv prototype, som kunne give mig en mere overflafisk ide om sitet.</p>
+        <h4>Overordnet</h4>
+        <p>Havde jeg haft mere tid ville jeg have fokuseret mere på visuelle elementer og interface. Jeg ville have anvendt flere metoder, såsom noget mere kvalitativt materiale fx. en survey bruger-undersøgelse eller interview. Jeg ville desuden have have været mere konsekvent med min kode og gjort den mere bæredygtig.</p>
+        <div class="img">
+          <img src="dokumentation/doku-mig.png" alt="ikke-vigtigt-billede">
+        </div>
       </div>
     </section>
     <!--Her starter footer-->
