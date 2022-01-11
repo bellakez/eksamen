@@ -190,6 +190,9 @@ header {
     display: flex;
     justify-content: space-evenly;
   }
+  footer {
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 600px) {
   header,
@@ -224,6 +227,6 @@ header {
     color: rgb(192, 175, 255);
   }
   footer {
-    background-color: rgb(192, 175, 255);
+    text-align: center;
   }
 }
